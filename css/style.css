@@ -1,14 +1,19 @@
-body{
-    background-color: red;
-}
+
 @media only screen and (min-width:370px){
 
 }
 @media only screen and (min-width:1440px){
-    
-}
-#first-con{
-    padding-top:45px;
-    padding-bottom:45px;
-    background-color:green;
+    #first-con{
+        padding-top:45px;
+        padding-bottom:45px;
+        background-color:hsl(185, 75%, 39%);
+    }
+    #top_pattern{
+        width:50%;
+        margin-top:-400px;
+    }
+    #bottom_pattern{
+        width:50%;
+        margin-left:750px;
+    }
 }
