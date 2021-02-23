@@ -1,1 +1,14 @@
-#
+body{
+    background-color: blueviolet;
+}
+@media only screen and (min-width:370px){
+
+}
+@media only screen and (min-width:1440px){
+    
+}
+#first-con{
+    padding-top:45px;
+    padding-bottom:45px;
+    background-color:green;
+}
