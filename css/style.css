@@ -16,12 +16,14 @@ body{
     }
     #bottom_pattern{
         width:50%;
+        margin-top:-140px;
         margin-left:750px;
     }
     #card{
+        position: relative;
         padding-left:0;
         padding-right:0;
-        padding-bottom:20px;
+        padding-bottom:30px;
         margin-top:-230px;
         width:350px;
 
@@ -76,13 +78,15 @@ body{
     font-weight:400;
     text-align:center;
     margin-top:-10px;
+    padding-bottom:10px;
 }
 .bottom-details{
+    padding-top:10px;
     padding-left:10px;
     padding-right:10px;
     display:flex;
 }
-.bottom-details p{
+.bottom-details, .bottom-details-names p{
     font-family: 'Kumbh Sans', sans-serif;
 }
 .bottom-f-number, .bottom-l-number, .bottom-p-number {
@@ -90,4 +94,26 @@ body{
     font-size: 18px;
     font-weight: 700;
     text-align:center;
+}
+.bottom-details-names{
+    padding-left:10px;
+    padding-right:10px;
+    display:flex;
+    margin-top:-20px;
+}
+.bottom-f-name, .bottom-l-name, .bottom-p-name {
+    flex:33.3%;
+    font-size:12px;
+    font-weight:400;
+    color:hsl(0, 0%, 59%);
+    text-align:center;
+}
+#top_pattern{
+    z-index:1;
+}
+#card{
+    z-index:3;
+}
+#bottom_pattern{
+    z-index:1;
 }
